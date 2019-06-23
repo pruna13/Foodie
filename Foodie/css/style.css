@@ -1,0 +1,137 @@
+<link rel="stylesheet" type="text/css" href="css/jTinder.css">
+body {
+  background-color: #FFC300;
+}
+
+.bleh {
+  font: 400 75px/1.2 'Leckerli One', Helvetica, sans-serif;
+  color: #C70039;
+  text-shadow: 2px 2px 0px rgba(0,0,0,0.2), 4px 4px 8px rgba(0,0,0,0.2);
+  text-align: center;
+  font-size:75px;
+
+}
+
+.blah {
+  font-family: 'Slabo 27px', serif;
+  color: #900C3F;
+  text-align: center;
+  font-size:20px;
+}
+
+.meh
+{
+  font-family: 'Fugaz One', cursive;
+  color: #FFFFFF;
+  display: block;
+  width:100%;
+  text-align: center;
+  font-size:40px;
+}
+.mrah
+{
+font-family: 'Roboto Slab', serif;
+  display: block;
+  width:100%;
+  color: #FFFFFF;
+  font-size: 15px;
+}
+
+.card {
+  box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color:  #FF5733;
+  background-color: #FFFFFF;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.title {
+  font-family:'Fugaz One', cursive;
+  display: block;
+  width:100%;
+  color: #FFFFFF;
+  font-size: 25px;
+
+}
+a {
+  font-family: 'Fugaz One', cursive;
+  font-size: 22px;
+  color: white;
+}
+
+ a:hover {
+  opacity: 0.7;
+}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 20px;
+}
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+
+.time-left {
+  float: left;
+  color: #999;
+}
+
+</style>
+</head>
+<body>

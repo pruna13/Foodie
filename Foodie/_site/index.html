@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <nav>
+      <a href="/">Home</a>
+    </nav>
+    <nav>
+    <a href="myaccount.html">My Account<br></a>
+    </nav>
+    <h1></h1>
+    <section>
+      <link href='http://fonts.googleapis.com/css?family=Leckerli+One' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fugaz+One&display=swap" rel="stylesheet">
+<style>
+.bleh
+ {
+  font: 400 75px/1.2 'Leckerli One', Helvetica, sans-serif;
+  color: #C70039;
+  text-shadow: 2px 2px 0px rgba(0,0,0,0.2), 4px 4px 8px rgba(0,0,0,0.2);
+  }
+
+.blah {
+  font-family: 'Slabo 27px', serif;
+  color: #900C3F;
+  text-align: center;
+}
+.meh
+{
+  font-family: 'Fugaz One', cursive;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+form {
+  margin: auto;
+  width: 100%;
+  max-width: 250px;
+}
+
+input {
+  width: 100%;
+}
+
+input[type="submit"] {
+  display: block;margin-top: 12px;
+}
+input[type="text"] {
+  display: block;margin-top: 5px;
+}
+  </style>
+  <h1 class="bleh">Foodie</h1>
+  <p class="blah">We believe the fastest place to your heart is through your stomach.
+     Whether you just want to network, make a friend, or meet The One - find YOUR Foodie today</p>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <form>
+    <p class="blah">Email:</p>
+    <input type="text" name="email">
+    <p class="blah">Username:</p>
+    <input type="text" name="username">
+    <p class="blah">Password:</p>
+    <input type="text" name="password">
+    <input type="submit" value="Sign Up!">
+  </form>
+  <script type="text/javascript" language="javascript">
+   $("form").on("submit", function(e) {
+    e.preventDefault(); // cancel submission
+    window.location = "myaccount";
+  });
+  </script>
+
+    </section>
+    <footer>
+      &copy; to me
+    </footer>
+  </body>
+</html>
